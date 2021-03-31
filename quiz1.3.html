@@ -1,0 +1,32 @@
+<!-- quiz 1.3 -->
+
+<!DOCTYPE html>
+<html> 
+    <head>  
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>My Document</title>  
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+        <script>   
+            // function change() {     
+            //     var header = document.getElementById("h1");     
+            //     header.innerHTML = "CSIE@CGU";     
+            //     var para = document.getElementById("p");     
+            //     para.innerHTML = "或ê或次.";
+            $(document).ready(function(){
+                $("#button").click(function(){
+                    $("#h1").text("CSIE@CGU");
+                    $("#p").text("或ê或次.");
+                });
+            });
+            // }  
+        </script> 
+    </head> 
+    <body>   
+        <input id="button" type="button" value="Change this document." >   
+        <h1 id="h1">CGU</h1>   
+        <p id="p">次次</p>
+    </body> 
+</head>
+</html>
